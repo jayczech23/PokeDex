@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/jordancech/Desktop/THE_PokeDex/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/jordancech/Desktop/THE_PokeDex/build/Pods.build/Debug-iphoneos/Alamofire.build/unextended-module.modulemap',
+    }]
+  }]
+}
