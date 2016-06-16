@@ -178,12 +178,12 @@ class Pokemon {
                 } else {
                     self._type = "" //if no types found, show empty String.
                 }
-                print(self._type)
+               /* print(self._type)
                 
                 print(self._weight)
                 print(self._height)
                 print(self._attack)
-                print(self._defense)
+                print(self._defense) */
              
                 if let descArr = dict["descriptions"] as? [Dictionary<String, String>]
                     where descArr.count > 0 {
@@ -229,9 +229,9 @@ class Pokemon {
                                         self._nextEvolutionLvl = "\(lvl)"
                                     }
                                     
-                                    print(self._nextEvolutionId)
+                                 /*   print(self._nextEvolutionId)
                                     print(self._nextEvolutionTxt)
-                                    print(self._nextEvolutionLvl)
+                                    print(self._nextEvolutionLvl) */
                                     
                                 }
                                 
